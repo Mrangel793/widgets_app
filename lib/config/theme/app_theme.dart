@@ -20,7 +20,7 @@ final int selectedColor;
   ThemeData theme() => ThemeData(
     useMaterial3: true,
     colorSchemeSeed: colorsTheme[selectedColor],
-    appBarTheme: AppBarTheme(
+    appBarTheme: const AppBarTheme(
       centerTitle: false
     )
     
